@@ -15,8 +15,10 @@ p {
 
   /* Add your CSS Grid styles below this line */
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 2fr 1fr 1fr;
-  grid-template-rows: 1fr 12r;
+
+  /* Repeated Columns and Rows */
+  /* grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr); */
 }
 
 .box {

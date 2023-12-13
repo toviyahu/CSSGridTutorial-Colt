@@ -22,3 +22,7 @@ p {
 .box {
   font-size: 1.5rem;
 }
+
+#redbox {
+  grid-column-start: 3;
+}

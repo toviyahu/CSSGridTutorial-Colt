@@ -19,5 +19,7 @@
   background-color: #e91e63;
   /* ⬇️⬇️⬇️ STYLE THE PINK BOX HERE ⬇️⬇️⬇️ */
 
+  grid-column-start: 4;
+
   /* ⬆️⬆️⬆️ STYLE THE PINK BOX HERE ⬆️⬆️⬆️ */
 }

@@ -29,9 +29,14 @@ body {
   /* grid-gap: 10px 30px; */
 
   /* grid for area */
-  grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(5, 1fr);
-  /* /* column-gap: 20px; */
+  /* grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr); */
+
+  /* column-gap: 20px;
+
+  /* Customizing Gridline Names */
+
+  grid-template-rows: [header-start] 1fr [content-start] 4fr [footer-start] 1fr [footer-end];
 }
 
 .box {
@@ -70,4 +75,6 @@ body {
   grid-row: span 3; */
 
   /* grid-row-start: span 5; */
+
+  grid-row-start: footer-start;
 }

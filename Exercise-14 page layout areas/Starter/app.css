@@ -27,6 +27,12 @@
 
   /* ⬇️⬇️⬇️ STYLE THE GRID CONTAINER HERE ⬇️⬇️⬇️ */
 
+  grid-template-areas:
+    "header header header header header"
+    "nav article article article ads"
+    "nav article article article ads"
+    "nav footer footer footer footer";
+
   /* ⬆️⬆️⬆️ STYLE THE GRID CONTAINER HERE ⬆️⬆️⬆️ */
 }
 
@@ -34,17 +40,23 @@
   background-color: #f44336bb;
   /* ⬇️⬇️⬇️ STYLE THE HEADER HERE ⬇️⬇️⬇️ */
 
+  grid-area: header;
+
   /* ⬆️⬆️⬆️ STYLE THE HEADER HERE ⬆️⬆️⬆️ */
 }
 .nav {
   background-color: #e91e63bb;
   /* ⬇️⬇️⬇️ STYLE THE NAV HERE ⬇️⬇️⬇️ */
 
+  grid-area: nav;
+
   /* ⬆️⬆️⬆️ STYLE THE NAV HERE ⬆️⬆️⬆️ */
 }
 .article {
   background-color: #9c27b0bb;
   /* ⬇️⬇️⬇️ STYLE THE ARTICLE HERE ⬇️⬇️⬇️ */
+
+  grid-area: article;
 
   /* ⬆️⬆️⬆️ STYLE THE ARTICLE HERE ⬆️⬆️⬆️ */
 }
@@ -53,12 +65,16 @@
   background-color: #673ab7bb;
   /* ⬇️⬇️⬇️ STYLE THE ADS HERE ⬇️⬇️⬇️ */
 
+  grid-area: ads;
+
   /* ⬆️⬆️⬆️ STYLE THE ADS HERE ⬆️⬆️⬆️ */
 }
 
 .footer {
   background-color: #2196f3bb;
   /* ⬇️⬇️⬇️ STYLE THE FOOTER HERE ⬇️⬇️⬇️ */
+
+  grid-area: footer;
 
   /* ⬆️⬆️⬆️ STYLE THE FOOTER HERE ⬆️⬆️⬆️ */
 }

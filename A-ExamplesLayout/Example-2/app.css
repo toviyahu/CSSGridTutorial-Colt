@@ -1,0 +1,38 @@
+body {
+  margin: 40px;
+  font-family: "Open Sans", "sans-serif";
+  background-color: #b0bec5;
+}
+
+.container > * {
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%;
+  margin: 0;
+}
+
+.card,
+.tall-card {
+  background-color: #455a64;
+}
+
+.header,
+.footer {
+  background-color: #7b1fa2;
+  grid-column: 1 / -1;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-auto-rows: minmax(150px, auto);
+  grid-gap: 20px;
+}
+
+.tall-card {
+  grid-row: span 2;
+}

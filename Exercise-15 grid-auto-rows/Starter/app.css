@@ -21,6 +21,10 @@ body {
   - All Automatically created rows are 100px tall  */
 
   /* ⬇️⬇️⬇️ STYLE THE GRID CONTAINER HERE ⬇️⬇️⬇️ */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  grid-auto-rows: 100px;
 
   /* ⬆️⬆️⬆️ STYLE THE GRID CONTAINER HERE ⬆️⬆️⬆️ */
 }

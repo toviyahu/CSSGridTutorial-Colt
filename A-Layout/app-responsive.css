@@ -12,7 +12,9 @@ body {
   /* Add your CSS Grid styles below this line */
   display: grid;
   /* grid-template-columns: minmax(200px, 500px) minmax(200px, 500px); */
-  grid-template-columns: repeat(3, minmax(200px, 1fr));
+  /* Minmax() with Repeat */
+  /* grid-template-columns: repeat(3, minmax(200px, 1fr)); */
+  /* grid-template-columns: repeat(3, 1fr); */
 }
 .box {
   font-size: 1.5rem;

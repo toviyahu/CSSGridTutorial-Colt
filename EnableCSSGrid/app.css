@@ -11,8 +11,12 @@ body {
 
   /* Add your CSS Grid styles below this line */
   display: grid;
-  grid-template-columns: 250px 250px 250px 250px;
+  /* grid-template-columns: 250px 250px 250px 250px; */
   /* grid-template-columns: 250px 500px 250px; */
+
+  /* Autofill  */
+  /* grid-template-columns: repeat(4, minmax(250px, 1fr)); */
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
 
 .box {

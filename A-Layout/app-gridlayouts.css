@@ -17,6 +17,7 @@ body {
   /* Add your CSS Grid Template below this line */
 
   grid-template-areas:
+  /* use a period to skip a spot for example instead of "a a a a" use "a a a ." to skip the last spot */
     "a a a a"
     "b c c d"
     "b e e f"
